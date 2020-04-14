@@ -1,0 +1,1 @@
+from .migemo import Migemo

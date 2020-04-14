@@ -1,0 +1,6 @@
+/.idea
+/dist
+/build
+/pymigemo.egg-info
+/migemo/__pycache__
+/tests/__pycache__
