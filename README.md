@@ -1,5 +1,7 @@
 # pymigemo
 
+[![Python package](https://github.com/oguna/pymigemo/actions/workflows/action.yml/badge.svg)](https://github.com/oguna/pymigemo/actions/workflows/action.yml)
+
 ## インストール
 ```
 > python setup.py install
