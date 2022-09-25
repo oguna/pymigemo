@@ -13,7 +13,7 @@ from . import romajiconverter
 class Migemo:
     def __init__(self):
         self.entries = []
-        with open(path.dirname(path.abspath(__file__)) + '/dict/migemo-compact-dict', mode='rb') as file:
+        with open(path.dirname(path.abspath(__file__)) + '/migemo-compact-dict', mode='rb') as file:
             self.dictionary = migemocompactdictionary.MigemoCompactDictionary(file)
         self.regex_operator = regexoperator.RegexOperators.DEFAULT.value
 

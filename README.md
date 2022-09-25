@@ -1,15 +1,10 @@
 # pymigemo
 
-[![Python package](https://github.com/oguna/pymigemo/actions/workflows/action.yml/badge.svg)](https://github.com/oguna/pymigemo/actions/workflows/action.yml)
+[![Python CI](https://github.com/oguna/pymigemo/actions/workflows/action.yml/badge.svg)](https://github.com/oguna/pymigemo/actions/workflows/action.yml)
 
 ## インストール
 ```
-> python setup.py install
-```
-
-## テスト
-```
-> python setup.py test
+> pip install pymigemo
 ```
 
 ## CLIで実行
@@ -27,10 +22,11 @@ PATTERN: (研削|建策|羂索|献策|検索|憲[冊作]|けんさく|ｋｅｎ�
 >>> import migemo
 >>> m = migemo.Migemo()
 >>> m.query("kensaku")
-'(研削|建策|羂索|献策|検索|憲[冊作]|けんさく|ｋｅｎｓａｋｕ|kensaku)'
+'(賢作|謙作|腱索|羂索|研削|県作|献策|検索|憲作|建策|兼作|健[策作]|けんさく|ｋｅｎｓａｋｕ|kensaku)'
 ```
 
 ## ライセンス
 
-`migemo/dict/migemo-compact-dict` はGPLv3です。
-それ以外のファイルはBSDライセンスです。
+BSDライセンスの辞書ファイルを同梱しています。
+
+パッケージ全体はBSDライセンスで配布しています。

@@ -12,7 +12,7 @@ setup(
     author='oguna',
     author_email='',
     url='https://github.com/oguna/pymigemo',
-    license='MIT',
+    license='BSD',
     test_suite='tests',
     entry_points={
         "console_scripts": [
@@ -21,6 +21,6 @@ setup(
     },
     packages=['migemo'],
     package_data={
-        'migemo': ['dict/migemo-compact-dict', 'dict/LICENSE']
+        'migemo': ['migemo-compact-dict']
     }
 )
