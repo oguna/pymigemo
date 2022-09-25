@@ -1,6 +1,7 @@
 # pymigemo
 
 [![Python CI](https://github.com/oguna/pymigemo/actions/workflows/action.yml/badge.svg)](https://github.com/oguna/pymigemo/actions/workflows/action.yml)
+[![PyPI version](https://badge.fury.io/py/pymigemo.svg)](https://badge.fury.io/py/pymigemo)
 
 ## インストール
 ```
